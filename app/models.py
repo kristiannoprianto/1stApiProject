@@ -1,5 +1,3 @@
-import email
-from enum import unique
 from sqlalchemy import Column, ForeignKey, Integer, String, Boolean, TIMESTAMP, text
 from sqlalchemy.orm import relationship
 from .database import Base

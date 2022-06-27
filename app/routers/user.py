@@ -1,6 +1,5 @@
-from fastapi import APIRouter, Depends, HTTPException, status, Response
+from fastapi import APIRouter, Depends, HTTPException, status
 from sqlalchemy.orm import Session
-from sqlalchemy import update
 from .. import models, schemas, utilities
 from ..database import get_db
 
